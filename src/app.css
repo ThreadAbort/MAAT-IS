@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+@layer base {
+  body {
+    @apply bg-stone-900 text-stone-100;
+  }
+}
+
+@layer components {
+  .link {
+    @apply text-maat-gold hover:text-amber-300 transition-colors duration-200;
+  }
+}

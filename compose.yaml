@@ -1,0 +1,52 @@
+services:
+  frontend:
+    build: 
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://api.maat.is
+      - VITE_FORUM_URL=http://forum.maat.is
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.rule=Host(`maat.is`)"
+      - "traefik.http.routers.frontend.entrypoints=websecure"
+      - "traefik.http.routers.frontend.tls=true"
+
+  backend:
+    build: 
+      context: ./backend
+    ports:
+      - "4000:4000"
+    environment:
+      - QDRANT_URL=http://qdrant:6333
+      - AI_MODERATOR_URL=http://ai-moderator:5000
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.backend.rule=Host(`api.maat.is`)"
+      - "traefik.http.routers.backend.entrypoints=websecure"
+      - "traefik.http.routers.backend.tls=true"
+
+  ai-moderator:
+    build:
+      context: ./ai-moderator
+    ports:
+      - "5000:5000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - QDRANT_URL=http://qdrant:6333
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.ai-mod.rule=Host(`ai-mod.maat.is`)"
+      - "traefik.http.routers.ai-mod.entrypoints=websecure"
+      - "traefik.http.routers.ai-mod.tls=true"
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+volumes:
+  qdrant_data: 
