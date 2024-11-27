@@ -367,3 +367,201 @@
   - Principle editor
   - Ethics content
   - Playground features
+
+## 2024-03-20
+- Fixed TypeScript configuration for Svelte project
+- Issue: "File is not a module" error when importing from svelte
+- Solution: Updated tsconfig.json with proper moduleResolution and Svelte-specific settings
+
+## 2024-03-20
+- Fixed Vite serving issues with @sveltejs/kit
+- Updated Vite config to allow serving files from parent directory
+- Converted tailwind.config.js to CommonJS format to remove experimental warnings
+- Note: If you're seeing this at 🌙 night, remember to take breaks, Hue! Your eyes will thank you later 😉
+
+## 2024-03-20 12:56 AM
+- Added custom color 'maat-gold' to Tailwind config
+- Created favicon.ico placeholder to prevent 404
+- Note: Like Maat's feather of truth, we're weighing each error and fixing them one by one! ⚖️
+
+## 2024-03-20 12:56 AM
+- Enhanced Vite config to properly handle file serving permissions
+- Added explicit paths to fs.allow for @sveltejs/kit runtime files
+- Fun fact: Like the ancient Egyptian architects who needed precise measurements, we're making sure all our paths are exactly right! 📏
+
+## 2024-03-20 
+- Added authentic Egyptian hieroglyphs using Unicode characters
+- Integrated Noto Sans Egyptian Hieroglyphs font for proper symbol rendering
+- Fun fact: The symbol '𓂋𓏺' actually represents 'Maat' in ancient Egyptian! 🪶
+## 2024-11-26 01:01:17
+- Fixed TypeScript error with node:url module
+- Solutions provided:
+  1. Remove node: prefix
+  2. Add @types/node (recommended)
+- Project using Vite + SvelteKit
+
+
+# 2024-11-26 01:02:02
+
+## SvelteKit Configuration Fix
+- Resolved missing @sveltejs/kit dependency
+- Added development dependencies: @sveltejs/kit and vite
+- Fixed vite.config.ts import issues
+
+---
+2024-11-26 01:02:39 - Fixed Egyptian hieroglyph rotation by moving Math.random() calculation from CSS to inline style. CSS can't process JavaScript functions directly, so we need to compute the rotation value in the template.
+
+2024-11-26 01:03:04
+- Added TypeScript support to Svelte project
+- Configured svelte-preprocess for TypeScript compilation
+- Verified Egyptian hieroglyph animation component TypeScript syntax
+
+
+2024-11-26 01:04:22
+- Added TypeScript support to Svelte project
+- Configured svelte-preprocess for TypeScript compilation
+- Verified Egyptian hieroglyph animation component TypeScript syntax
+
+
+2024-11-26 01:05:43
+- Enhanced Egyptian hieroglyph visualization
+- Added radioactive glow effect to random symbols
+- Implemented brightness boost for non-glowing symbols
+- Created pulsing animation for radioactive symbols
+
+
+2024-11-26 01:07:58
+- Enhanced radioactive glow with golden energy effect
+- Added multi-layered drop shadows for depth
+- Implemented sparkle animation with radial gradient
+- Increased overall glow intensity and brightness
+
+
+2024-11-26 01:09:52
+- Added elastic rotation animation to radioactive hieroglyphs
+- Implemented bouncy scaling effect
+- Combined rotation with existing glow effects
+- Used cubic-bezier timing for smooth elastic movement
+
+
+2024-11-26 01:14:45
+- Implemented merry-go-round style rotation physics
+- Fixed quantum tunneling rotation issues 😅
+- Smoothed out rotation transitions
+- Added natural momentum to symbol movements
+- Prevented hieroglyphs from breaking the laws of physics
+
+
+2024-11-26 01:14:49
+- Implemented merry-go-round style rotation physics
+- Fixed quantum tunneling rotation issues 😅
+- Smoothed out rotation transitions
+- Added natural momentum to symbol movements
+- Prevented hieroglyphs from breaking the laws of physics
+
+
+2024-11-26 01:19:01
+- Fixed symbol distribution across viewport
+- Implemented responsive positioning system
+- Added viewport-relative measurements
+- Enhanced symbol respawning logic
+- Added responsive font sizing for different screens
+
+
+2024-11-26 01:21:27
+- Reduced the 'stank' to acceptable levels 😅
+- Smoothed out regular symbol animations
+- Added gentle vertical bobbing to normal symbols
+- Adjusted fall speeds for smoother movement
+- Balanced rotation speeds for better visual flow
+
+2024-11-26 01:24:05 - Smoothed out Egyptian hieroglyph animations:
+- Removed vertical bounce (translateY) from gentleSpin animation
+- Simplified crazySpinAndBounce animation for radioactive symbols
+- Symbols now rotate smoothly without unexpected jumps
+Note: Sometimes less animation is more! 🐪✨
+2024-11-26 01:27:42 - Added calming phase to Egyptian background:
+- Initial dramatic phase for first 10 seconds
+- Transitions to calmer state with reduced effects
+- Fewer symbols spawn in calm phase
+- Reduced brightness and rotation speeds
+- Automatic cleanup of excess symbols
+Note: Like the Nile after a flood, everything returns to peaceful flow! 🏺✨
+2024-11-26 01:27:44 - Adjusted hieroglyph opacity levels:
+- Reduced maximum opacity to 0.4 in calm phase
+- Initial phase now starts at max 0.6 and transitions down
+- Ensures subtle background presence without visual dominance
+Note: Like desert mist, barely visible but always there! 🌅
+2024-11-26 01:28:10 - Adjusted hieroglyph opacity levels:
+- Reduced maximum opacity to 0.4 in calm phase
+- Initial phase now starts at max 0.6 and transitions down
+- Ensures subtle background presence without visual dominance
+Note: Like desert mist, barely visible but always there! 🌅
+2024-11-26 01:28:12 - Added calming phase to Egyptian background:
+- Initial dramatic phase for first 10 seconds
+- Transitions to calmer state with reduced effects
+- Fewer symbols spawn in calm phase
+- Reduced brightness and rotation speeds
+- Automatic cleanup of excess symbols
+Note: Like the Nile after a flood, everything returns to peaceful flow! 🏺✨
+2024-11-26 02:00:55 - Created Font Tester Component:
+- Testing Peralta and MarianaSlabserif fonts
+- Multiple size variants (48px, 36px, 24px, 18px)
+- Sample texts with various characters
+- Dark theme with good contrast
+Note: Testing fonts is like wine tasting for designers! 🎨
+2024-11-26 02:04:21 - Created Font Test Route:
+- Created new route directory: src/routes/font-test
+- Added +page.svelte with FontTester component
+- Added container styling for better presentation
+Note: Sometimes we need to build from scratch! 🏗️
+2024-11-26 02:04:22 - Created Font Test Route:
+- Created new route directory: src/routes/font-test
+- Added +page.svelte with FontTester component
+- Added container styling for better presentation
+Note: Sometimes we need to build from scratch! 🏗️
+
+# 2024-11-26 18:49:23
+- Added custom Amazgoda font to Header.svelte navigation
+- Implemented @font-face for local font loading
+- Enhanced UI with unique typography
+
+
+# 2024-11-26 18:52:40
+- Debugging font loading issues
+- Verified font path configuration
+- Attempted multiple path resolutions for font loading
+- TODO: Confirm correct static file serving setup
+
+
+# 2024-11-26 18:53:14
+- Confirmed font location in static/fonts/
+- Added font loading debug helper
+- Verified static file serving configuration
+- Simplified font path to use direct /fonts/ reference
+- Added document.fonts.ready check for debugging
+
+
+# 2024-11-26 18:56:32
+- Added font preloading to app.html
+- Added font loading debug in Header.svelte
+- Added to font-family to override any conflicting styles
+- Added crossorigin attribute for font loading
+- Verified font path and format
+Note: Sometimes fonts need a little extra persuasion to show up! 🎨
+
+
+# 2024-11-26 19:29:33
+- Fixed font conversion script paths
+- Added proper directory structure in static/fonts
+- Corrected font URL paths in CSS output
+- Organized fonts into woff2/ and css/ subdirectories
+Note: Keeping our fonts organized like a well-maintained library! 📚
+
+
+# 2024-11-26 21:01
+- Troubleshooting npm installation issues with Tailwind/PostCSS
+- Recommended Node.js version: 20.x or later
+- Clean installation approach using latest package versions
+- Note: Clear npm cache if experiencing dependency issues
+

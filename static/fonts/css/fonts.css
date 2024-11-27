@@ -1,0 +1,91 @@
+/* Auto-generated font-face declarations */
+
+@font-face {
+    font-family: 'COMPUTERRobot';
+    src: url('/fonts/woff2/COMPUTERRobot.woff2') format('woff2'),
+         url('/fonts/COMPUTERRobot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Computer Regular';
+    src: url('/fonts/woff2/Computer Regular.woff2') format('woff2'),
+         url('/fonts/Computer Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'LazenbyCompLiquid';
+    src: url('/fonts/woff2/LazenbyCompLiquid.woff2') format('woff2'),
+         url('/fonts/LazenbyCompLiquid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'LazenbyCompSmooth';
+    src: url('/fonts/woff2/LazenbyCompSmooth.woff2') format('woff2'),
+         url('/fonts/LazenbyCompSmooth.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'MarianaSlabserif-8j5A';
+    src: url('/fonts/woff2/MarianaSlabserif-8j5A.woff2') format('woff2'),
+         url('/fonts/MarianaSlabserif-8j5A.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'MesloLGS NF Regular';
+    src: url('/fonts/woff2/MesloLGS NF Regular.woff2') format('woff2'),
+         url('/fonts/MesloLGS NF Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'NotoSansEgyptianHieroglyphs-Regular';
+    src: url('/fonts/woff2/NotoSansEgyptianHieroglyphs-Regular.woff2') format('woff2'),
+         url('/fonts/NotoSansEgyptianHieroglyphs-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Peralta-o014';
+    src: url('/fonts/woff2/Peralta-o014.woff2') format('woff2'),
+         url('/fonts/Peralta-o014.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'amazgoda';
+    src: url('/fonts/woff2/amazgoda.woff2') format('woff2'),
+         url('/fonts/amazgoda.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'maat';
+    src: url('/fonts/woff2/maat.woff2') format('woff2'),
+         url('/fonts/maat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

@@ -1,16 +1,25 @@
 <script lang="ts">
   import ForumPost from './forum/ForumPost.svelte';
+  import type { Post } from '$lib/types';
+
+  const samplePosts: Post[] = [
+    {
+      id: '1',
+      content: 'Welcome to the Ma\'at Principles Forum!',
+      author: {
+        name: 'Moderator',
+        avatar: '' // Will use default avatar
+      },
+      timestamp: Date.now()
+    }
+  ];
 </script>
 
-<section class="forum">
-  <h2>Community Forum</h2>
-  <div class="posts">
-    <!-- Forum posts will go here -->
+<section class="py-8">
+  <h2 class="font-peralta text-2xl text-amber-600 mb-6">Community Discussion</h2>
+  <div class="space-y-4">
+    {#each samplePosts as post (post.id)}
+      <ForumPost {...post} />
+    {/each}
   </div>
 </section>
-
-<style lang="postcss">
-  .forum {
-    @apply max-w-4xl mx-auto py-8;
-  }
-</style>

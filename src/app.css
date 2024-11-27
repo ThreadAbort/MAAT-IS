@@ -1,3 +1,4 @@
+@import '/fonts/css/fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +14,44 @@
 }
 
 @layer components {
-  .link {
-    @apply text-maat-gold hover:text-amber-300 transition-colors duration-200;
+  /* Font families */
+  .font-computer-robot {
+    font-family: 'COMPUTERRobot', monospace;
+  }
+  
+  .font-computer-regular {
+    font-family: 'Computer Regular', monospace;
+  }
+  
+  .font-lazenby-liquid {
+    font-family: 'LazenbyCompLiquid', sans-serif;
+  }
+  
+  .font-lazenby-smooth {
+    font-family: 'LazenbyCompSmooth', sans-serif;
+  }
+  
+  .font-mariana {
+    font-family: 'MarianaSlabserif-8j5A', serif;
+  }
+  
+  .font-meslo {
+    font-family: 'MesloLGS NF Regular', monospace;
+  }
+  
+  .font-hieroglyphs {
+    font-family: 'NotoSansEgyptianHieroglyphs-Regular', sans-serif;
+  }
+  
+  .font-peralta {
+    font-family: 'Peralta-o014', sans-serif;
+  }
+  
+  .font-amazgoda {
+    font-family: 'amazgoda', sans-serif;
+  }
+  
+  .font-maat {
+    font-family: 'maat', system-ui, sans-serif;
   }
 }
